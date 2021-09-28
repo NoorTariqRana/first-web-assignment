@@ -1,0 +1,136 @@
+body
+{
+    background-image: url("./brushed-alum.png");
+        background-color:black;
+        background-repeat:repeat;      
+}
+        
+#menu ul
+{
+    list-style-type: none;   
+}
+
+ #menu li
+{
+    display:inline;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #950740;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+}
+#menu
+{
+    position: sticky;
+    top: 0;
+    background-color:black;
+}
+
+
+#name:hover {
+    color:#f7e7f7;
+    
+}
+#intropara::first-letter
+{
+    font-size: 2em;
+}
+
+#intro
+{
+    background-color:#f7e7f7;
+    border-style: Solid;
+    font-size: 1em;
+    width:20%;
+    padding: 70px;
+    margin: 4%;
+    position:relative;
+    left: 46%;
+    
+}
+#photo
+{
+    width:20%;
+    padding: 70px;
+    margin: 6%;
+    position:absolute;
+    top: -7%;
+    right:180%;
+}
+
+#content h1 {
+    text-align: center;
+    margin: 5px;
+    padding: 2px;  
+      
+}
+
+#boxes p
+{    
+    display: inline-block;
+    vertical-align: top;
+    font-size:x-large;
+    padding: 55px;
+    margin: 30px;
+    border-style: Solid;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color:#f7e7f7;
+    
+}
+
+
+#blog h2
+{
+    text-align: center;
+    color:#C3073F;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    
+}
+#blog p{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+ 
+}
+#whiteimg{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: max-content;
+    width: max-content;
+}
+
+#white
+{
+    font-size: 1em;
+    border: 1px solid;
+    text-align: center;
+    background-color:#f7e7f7;
+    border-radius: 5px;
+   
+ 
+}
+#black
+{
+    margin-top:4px;
+    font-size: 1em;
+    border: 1px solid;
+    text-align: center;
+    background-color:#f7e7f7;
+    border-radius: 5px;
+    
+}
+
+
+#feedback
+{
+    float: left;
+    border: 5px black ;
+    border-style:groove;
+    border-radius: 10px;
+    background-color:#f7e7f7;
+    padding: 10px;
+    margin-top: 10px;
+}
